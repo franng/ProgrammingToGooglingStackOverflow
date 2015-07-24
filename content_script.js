@@ -42,6 +42,10 @@ function handleText(textNode)
 	v = v.replace(/\bprograms\b/g, "googles StackOverflow");
 	v = v.replace(/\bProgrammed\b/g, "Googled StackOverflow");
 	v = v.replace(/\bprogrammed\b/g, "googled StackOverflow");
+	v = v.replace(/\bProgrammable\b/g, "Googlable StackOverflow");
+	v = v.replace(/\bprogrammable\b/g, "googlable StackOverflow");
+	v = v.replace(/\bProgrammers\b/g, "Googlers of StackOverflow");
+	v = v.replace(/\bprogrammers\b/g, "googlers of StackOverflow");
 	
 	textNode.nodeValue = v;
 }
